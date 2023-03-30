@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int numero_maior , numerox;
+
+   
+
+    while (numerox != -1 && numerox > 0)
+    {
+        printf ("\nnumero que deseja: ");
+        
+        scanf("%d", & numerox);
+        
+            if (numero_maior  < numerox)
+            {
+            printf("\nesse é o maior que voce ja digitou ate agora: %d", numerox);
+            numero_maior =numerox;
+            }  
+             else { 
+                if (numero_maior > numerox);
+                {
+                    printf("\nesse é o maior que voce ja digitou ate agora: %d", numero_maior);
+
+
+                }}
+                
+                
+        
+
+        
+
+    }
+    
+
+
+}
